@@ -1,0 +1,12 @@
+// in this Code I show you how to usea @d array in C#
+
+string[,] Car = new string[2, 2]; // first we make a string avay the we write this is a 2d array next we make 2 split and 2  line
+{
+    Car[0, 1] = "Toyota "; // we say the car in split 0 and in line 1 is toyota
+    Car[0, 0] = "Audi ";
+
+    Car[1, 0] = "Supra";
+    Car[1, 1] = "SUV";
+}
+
+Console.WriteLine(Car[0 ,1] + Car[1, 0]);// we say write on consol The car in split 0 and line 1 and the car in split 1 and line 0
